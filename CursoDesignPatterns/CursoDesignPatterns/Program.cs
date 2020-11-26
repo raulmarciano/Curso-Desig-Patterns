@@ -1,4 +1,5 @@
-﻿using CursoDesignPatterns.Strategy;
+﻿using CursoDesignPatterns.ChainResponsibility;
+using CursoDesignPatterns.Strategy;
 using System;
 
 namespace CursoDesignPatterns
@@ -24,6 +25,27 @@ namespace CursoDesignPatterns
             Console.ReadKey();
 
             #endregion Imposto
+
+            #region ChainResponsibility
+
+            Console.WriteLine("\nChain of Responsibility:");
+
+            CalculadorDesconto calculadorDesconto = new CalculadorDesconto();
+
+            orcamento.AdicionaItem(new Item("Caneta", 133));
+            orcamento.AdicionaItem(new Item("Lapis", 133));
+
+            calculadorDesconto.Calcula(orcamento);
+
+            orcamento.AdicionaItem(new Item("TV", 133));
+            orcamento.AdicionaItem(new Item("Xbox", 133));
+            orcamento.AdicionaItem(new Item("PS5", 133));
+            orcamento.AdicionaItem(new Item("Ryzen", 133));
+
+            calculadorDesconto.Calcula(orcamento);
+            Console.ReadKey();
+
+            #endregion ChainResponsibility
         }
     }
 }
