@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace CursoDesignPatterns.Strategy
+﻿namespace CursoDesignPatterns.Strategy
 {
     public interface IImposto
     {
-        Double Calcula(Orcamento orcamento);
+        double Calcula(Orcamento orcamento);
     }
 }
