@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raul\\source\\repos\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj": {}
+    "C:\\Desenvolvimento\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raul\\source\\repos\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj": {
+    "C:\\Desenvolvimento\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raul\\source\\repos\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj",
         "projectName": "CursoDesignPatterns",
-        "projectPath": "C:\\Users\\Raul\\source\\repos\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj",
-        "packagesPath": "C:\\Users\\Raul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raul\\source\\repos\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\CursoDesignPatterns.csproj",
+        "packagesPath": "C:\\Users\\raul_\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Curso-Design-Patterns\\CursoDesignPatterns\\CursoDesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\raul_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
