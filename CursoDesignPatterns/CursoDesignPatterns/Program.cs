@@ -1,5 +1,6 @@
 ﻿using CursoDesignPatterns.ChainResponsibility;
 using CursoDesignPatterns.Strategy;
+using CursoDesignPatterns.TemplateMethod;
 using System;
 
 namespace CursoDesignPatterns
@@ -46,6 +47,25 @@ namespace CursoDesignPatterns
             Console.ReadKey();
 
             #endregion ChainResponsibility
+
+            #region TemplateMethod
+
+            //Usado para obrigar algumas implementações
+
+            Console.WriteLine("\nTemplate Method:");
+
+            IImposto icpp = new ICPP();
+            IImposto ickv = new IKCV();
+
+            double valorIcpp = icpp.Calcula(orcamento);
+            double valorIckv = ickv.Calcula(orcamento);
+
+            Console.WriteLine(valorIcpp);
+            Console.WriteLine(valorIckv);
+
+            Console.ReadKey();
+
+            #endregion TemplateMethod
         }
     }
 }
