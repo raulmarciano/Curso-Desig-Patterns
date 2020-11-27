@@ -1,6 +1,4 @@
-﻿using CursoDesignPatterns.Strategy;
-
-namespace CursoDesignPatterns.TemplateMethod
+﻿namespace CursoDesignPatterns.TemplateMethod
 {
     public class ICPP : TemplateImpostoCondicional
     {
