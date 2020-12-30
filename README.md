@@ -5,3 +5,4 @@ Abordando os termos de padrões:
 - Strategy
 - Chain of Responsibility
 - Template Method
+- Decorator
