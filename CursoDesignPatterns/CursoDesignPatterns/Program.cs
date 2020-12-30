@@ -66,6 +66,18 @@ namespace CursoDesignPatterns
             Console.ReadKey();
 
             #endregion TemplateMethod
+
+            #region Decorator
+
+            Decorator.Imposto imposto = new Decorator.ISS(new Decorator.ICMS());
+            double valor = imposto.Calcula(orcamento);
+
+            Console.WriteLine($"\nDecorator\n{valor}");
+            Console.ReadKey();
+
+            #endregion Decorator
+
+
         }
     }
 }
